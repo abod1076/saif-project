@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Zir Al Aman - FOREVER</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{font-family:'Cairo';background:#000;color:#fff;min-height:100vh;display:grid;place-items:center;overflow:hidden}
+.bg{position:fixed;inset:0;background: radial-gradient(800px at 50% -10%, #00e5ff30, transparent), radial-gradient(600px at 90% 90%, #ff1a1a20, transparent), #000;z-index:0}
+#particles{position:fixed;inset:0;z-index:1}
+.card{position:relative;z-index:2;width:92%;max-width:400px;background:rgba(20,20,22,0.85);backdrop-filter:blur(40px);border:1px solid rgba(255,255,255,0.12);border-radius:30px;padding:30px;text-align:center;box-shadow:0 30px 80px rgba(0,0,0,0.9), 0 0 0 1px rgba(255,255,255,0.05) inset}
+.logo{width:80px;height:80px;margin:0 auto 16px;background: linear-gradient(135deg,#00e5ff,#0066ff);border-radius:20px;display:grid;place-items:center;font-size:40px;box-shadow:0 0 40px #00e5ff66;animation: float 3s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+h1{font-size:28px;font-weight:900}h1 span{color:#00e5ff;text-shadow:0 0 20px #00e5ff}
+.badge{margin:10px auto 18px;display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(0,229,255,0.1);border:1px solid rgba(0,229,255,0.2);font-size:11px;color:#00e5ff}
+.btn{width:100%;padding:19px;border:none;border-radius:18px;background:#fff;color:#000;font-weight:900;font-size:17px;cursor:pointer;box-shadow:0 0 30px rgba(255,255,255,0.3);transition:.2s}
+.btn:active{transform:scale(0.97)}
+.sheet{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,0.65);backdrop-filter:blur(12px);display:none;place-items:end center}
+.sheet.active{display:grid;animation: fadeIn .3s ease}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.sheet-box{width:100%;max-width:460px;background:#1c1c1e;border-radius:34px 34px 0 0;padding:22px 20px 36px;transform:translateY(100%);animation: slideUp .5s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes slideUp{to{transform:translateY(0)}}
+.handle{width:42px;height:5px;background:#3a3a3c;border-radius:999px;margin:0 auto 20px}
+.face{width:60px;height:60px;border:2px solid #00e5ff;border-radius:18px;display:grid;place-items:center;font-size:28px;animation: pulse 1.3s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 #
